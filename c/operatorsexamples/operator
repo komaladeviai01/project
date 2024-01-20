@@ -1,0 +1,15 @@
+{
+    int c=a+b;
+    printf("\n added value of a+b:%d\n",c);
+}
+int subtractionprogram(int a,int b)
+{
+    int c=a-b;
+    printf("\n sub value of a-b:%d\n",c);
+}
+int divisionprogram(int a, int b)
+{
+    float c;
+    c=(float)a/b;
+    printf("\n divit value of a/b:%f\n",c);
+}
