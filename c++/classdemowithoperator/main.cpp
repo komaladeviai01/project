@@ -1,5 +1,92 @@
+
 #include <iostream>
-using namespacestd;
+/*using namespace std;
+class votingcheck
+{
+public:
+    votingcheck()
+    {
+        int age;
+         cout<< "you are age for first constructor";
+         cin>>age;
+         if(age>=18)
+      {
+           cout<<"you are eligible for vote";
+      }
+
+       else
+        {
+            cout<<"you are not eligible for vote";
+        }
+    }
+    votingcheck(int age)
+    {
+        if(age>=18)
+        {
+            cout<<"you are eligible for second constructor";
+    }
+    else{
+        cout<<"you are not eligible for second constructor";
+    }
+    }
+    void checkage(int age){
+    if(age>=18)
+    {
+        cout<<"welcome for vote";
+     }
+     else{
+        cout<<" your voting";
+     }
+    }
+
+};
+int main()
+{
+votingcheck vc;
+int age;
+  cout<<"Enter your age for second constructor";
+  cin>>age;
+
+//votingcheck vc1(age);
+vc.checkage(26);
+return 0;
+
+}
+*/
+
+
+
+
+/*using namespace std;
+
+class votingcheck
+{
+public:
+    void checkage(int age)
+    {
+        if(age>=18)
+        {
+
+            cin>>age;
+            cout<<"you are eligible for vote";
+        }
+                else{
+                    cout<<"you are not eligible for vote";
+                    }
+    }
+
+    };
+int main()
+{
+    int age;
+    votingcheck vc;
+   cout<<"you enter your Age\n";
+   cin>>age;
+
+   vc.checkage(age);
+return 0;
+}
+*/
 
 
 /*using namespace std;
