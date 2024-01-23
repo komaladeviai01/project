@@ -1,5 +1,33 @@
 #include <iostream>
 /*using namespace std;
+    void add(int x,int y)
+    {
+        cout<<"added value...."<<(x+y)<<endl;
+    }
+    void sub(int a,int b)
+    {
+        cout<<"sub value...."<<(a-b)<<endl;
+    }
+    void multipule(int x,int y)
+    {
+        cout<<"mult valu..."<<(x*y)<<endl;
+    }
+
+    void division(float x, float y)
+    {
+        cout<<"division..."<<(x/y)<<endl;
+    }
+
+    int main()
+    {
+            add(6,7);
+            sub(9,13);
+            multipule(7,3);
+            division(8,5);
+    return 0;
+    }*/
+
+/*using namespace std;
 class votingcheck
 {
 public:
