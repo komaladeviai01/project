@@ -11,10 +11,10 @@ class company():
     def password(self):
         print("Allow to changed password of system")
     def shareholder(self):
-        print ("The control of company")
+        print ("The control of company....")
 class manager(company):
     def __init__(self):
-        super(). companyname()
+        super().companyname()
         super().accessnetwork()
         super().Id()
         super().password()
@@ -33,9 +33,9 @@ class customer(company):
         print("Thery are regiment this company")
 
 
-x=company()
-y=manager()
-z=customer()
+cy=company()
+mr=manager()
+cus=customer()
 
         
         
