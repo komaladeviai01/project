@@ -58,6 +58,30 @@ def exponentiation():
     c=a**b
     labelouptut.config(text=c)
 
+def Increment():
+    a=int(tbEntrya.get())
+    a+=2
+    labelouptut.config(text=a)
+
+def Decrement():
+    b=int(tbEntryb.get())
+    b-=2
+    labelouptut.config(text=b)
+
+def floordivisionequal():
+    a=int(tbEntrya.get())
+    a//=6
+    labelouptut.config(text=a)
+
+def Exponentiationequval():
+    b=int(tbEntryb.get())
+    b**=3
+    labelouptut.config(text=b)
+    
+def equal():
+    a=int(tbEntrya.get())
+    a==2
+    labelouptut.config(text=a)
 
 
 
@@ -65,21 +89,22 @@ labelTitle=Label(win,text="Arithmatic Operations",font=("clarion",15))
 labelTitle.grid(row=0,column=20,padx=200, pady=30)
 
 label1msg=Label(win,text="Enter value a :")
-label1msg.grid(row=1,column=20)
+label1msg.grid(row=1,column=15)
 
 tbEntrya=Entry(win,width=60)
-tbEntrya.grid(row=1,column=25)
+tbEntrya.grid(row=1,column=20)
 
 
 label2msg=Label(win,text="Enter value b :")
-label2msg.grid(row=2,column=20, pady=20)
+label2msg.grid(row=2,column=15, pady=20)
+
 
 tbEntryb=Entry(win,width=60)
-tbEntryb.grid(row=2,column=25,pady=20)
+tbEntryb.grid(row=2,column=20,pady=20)
 
 
 labelouptut=Label(win,text="values:")
-labelouptut.grid(row=3,column=30, pady=20)
+labelouptut.grid(row=3,column=20, pady=20)
 
 
 btnAdd=Button(win,text="Addition", command=addition,bg="Hotpink")
@@ -95,10 +120,23 @@ btndivision=Button(win,text="division",command=division,bg="Hotpink")
 btndivision.grid(row=4,column=4)
 
 btndivision=Button(win,text="modules",command=modules,bg="Hotpink")
-btndivision.grid(row=4,column=4)
-
-btndivision=Button(win,text="exponentiation",command=exponentiation,bg="Hotpink")
 btndivision.grid(row=4,column=5)
 
+btndivision=Button(win,text="exponentiation",command=exponentiation,bg="Hotpink")
+btndivision.grid(row=4,column=6)
 
+btndivision=Button(win,text="Increment",command=Increment,bg="Hotpink")
+btndivision.grid(row=4,column=7)
+
+btndivision=Button(win,text="Decrement",command=Decrement,bg="Hotpink")
+btndivision.grid(row=4,column=8)
+
+btndivision=Button(win,text="floordivisionequal",command=floordivisionequal,bg="Hotpink")
+btndivision.grid(row=6,column=1)
+
+btndivision=Button(win,text="Exponentiationequval",command=Exponentiationequval,bg="Hotpink")
+btndivision.grid(row=6,column=2)
+
+btndivision=Button(win,text="equal",command=equal,bg="Hotpink")
+btndivision.grid(row=6,column=3)
 win.mainloop()
