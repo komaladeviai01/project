@@ -15,7 +15,7 @@ result_show=result.fetchall()
 for x in result_show:
     print(x)
 
-result.execute("select * from std_info")
+result.execute("select * from aibatch")
 result_show=result.fetchall()
 for x in result_show:
     print(x)
@@ -26,7 +26,7 @@ result.execute
 result_show=result.fetchall()
 for x in result_show:
    print(x)
-result.execute("select * from std_info")
+result.execute("select * from aibatch")
 result_show=result.fetchall()
 for x in result_show:
     print(x)
