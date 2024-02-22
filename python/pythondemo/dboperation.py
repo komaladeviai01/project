@@ -29,7 +29,10 @@ def insertvalues():
     print(result.rowcount,"row inserted")
     e_con.commit()
 
-
+def updatevalues():
+    Std_name=tbstd_name.get ()
+    
+    
 
 
 
